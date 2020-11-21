@@ -171,6 +171,10 @@ ul {
     color: #8381e3;
 }
 
+.color-indigo6 {
+    color: #fff;
+}
+
 .bg-red {
     background: linear-gradient(200deg, #ff5e3a, #ff2a68);
 }
@@ -301,7 +305,7 @@ ul {
 .sidebar-panel .side-nav li a > i {
     font-size: 16px;
     text-align: left;
-    color: #3f51b5;
+    color: #fff;
 }
 
 .sidebar-panel .side-nav li a i {
@@ -384,7 +388,7 @@ ul {
 .sidebar-panel .side-nav .tabs .tab a.active {
     background: #212121;
     border-radius: 30px;
-    color: #3f51b5;
+    color: #fff;
 }
 
 .sidebar-panel .side-nav .tabs .indicator {
