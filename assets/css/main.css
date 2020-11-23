@@ -6271,7 +6271,7 @@ header .navbar .navbar-collapse .nav_account.btn_demo3 .btn_sm_primary {
 }
 
 .banner_bg_pricing {
-  background-color: rgba(253, 107, 59, 0.09);
+  background-color: rgb(255, 255, 255);
   padding-bottom: 28.125rem;
 }
 
@@ -10815,7 +10815,7 @@ software_web
   font-size: 18px;
 }
 .p_pricing_list .group_price_table {
-  background-color: #ffffff;
+  background-color: #001638;
   border-top-right-radius: 12px;
   border-bottom-right-radius: 12px;
   padding: 3.75rem;
@@ -10870,7 +10870,7 @@ software_web
 .p_pricing_list .group_price_table .item_price .part_one h3 {
   display: inline-block;
   font-size: 18px;
-  color: #0b2238;
+  color: #7b7b7b;
   margin-bottom: 0;
   font-weight: 400;
   -webkit-transition: 0.4s !important;
@@ -10889,7 +10889,7 @@ software_web
   border-radius: 20px;
   font-size: 12px;
   color: #fd6b3b;
-  background-color: rgba(253, 107, 59, 0.1);
+  background-color: rgb(253, 107, 59);
   padding: 8px 13px;
   margin-left: 12px;
 }
@@ -10902,7 +10902,7 @@ software_web
 .p_pricing_list .group_price_table .item_price .part_two h4 {
   font-size: 30px;
   font-weight: 600;
-  color: #0b2238;
+  color: #7b7b7b;
   margin-bottom: 0;
   -webkit-transition: 0.4s !important;
   -moz-transition: 0.4s !important;
@@ -10962,7 +10962,7 @@ software_web
 }
 
 .bg-pricing_list {
-  background-color: rgba(253, 107, 59, 0.05);
+  background-color: rgb(255, 255, 255);
 }
 .bg-pricing_list::before {
   content: "";
@@ -11096,8 +11096,8 @@ software_web
   display: contents;
 }
 .faq_section .accordion .card .card-header .btn-link::before {
-  font-family: "The-Icon-of" !important;
-  content: "\e9b1";
+  font-family: FontAwesome !important;
+  content: "\f106";
   float: right;
   margin-top: 0.4rem;
   font-size: 20px;
@@ -12134,7 +12134,7 @@ software_web
 .creative_box_contact .content::before {
   content: "";
   position: absolute;
-  background-image: url("../img/inner/line-cc.svg");
+  background-image: url("../img/line-cc.svg");
   background-repeat: no-repeat;
   background-position-x: -430px;
   background-position-y: -190px;
@@ -19695,12 +19695,12 @@ html:not(.no-js) [data-aos="fade-up"] {
 }
 .prgoress_indicator::after {
   position: absolute;
-  font-family: "The-Icon-of";
-  content: "\e9a2";
+  font-family: FontAwesome;
+  content: "\f062";
   text-align: center;
   line-height: 46px;
   font-size: 18px;
-  color: rgba(22, 93, 245, 0.2);
+  color: rgba(245, 182, 22, 0.2);
   left: 0;
   top: 0;
   height: 46px;
@@ -19716,8 +19716,8 @@ html:not(.no-js) [data-aos="fade-up"] {
 }
 .prgoress_indicator::before {
   position: absolute;
-  font-family: "The-Icon-of";
-  content: "\e9a2";
+  font-family: FontAwesome;
+  content: "\f062";
   text-align: center;
   line-height: 46px;
   font-size: 18px;
@@ -19738,7 +19738,7 @@ html:not(.no-js) [data-aos="fade-up"] {
   transition: all 200ms linear !important;
 }
 .prgoress_indicator:hover::after {
-  color: #165df5;
+  color: #fd7028;
 }
 .prgoress_indicator:hover:before {
   opacity: 1;
@@ -19747,7 +19747,7 @@ html:not(.no-js) [data-aos="fade-up"] {
   fill: none;
 }
 .prgoress_indicator svg.progress-circle path {
-  stroke: #165df5;
+  stroke: #fd7028;
   stroke-width: 4;
   box-sizing: border-box;
   -webkit-transition: all 200ms linear !important;
