@@ -10682,6 +10682,8 @@ software_web
   background-color: #f93542;
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
   padding: 22px;
 }
 .p_pricing_list .tab_pricing_list .nav-pills {
@@ -10859,8 +10861,8 @@ software_web
   transition: 0.4s !important;
 }
 .p_pricing_list .group_price_table .item_price .part_one .check_select::before {
-  content: "\e919";
-  font-family: "The-Icon-of" !important;
+  content: "\f058";
+  font-family: FontAwesome !important;
   font-size: 33px;
   color: #ffffff;
   opacity: 0;
