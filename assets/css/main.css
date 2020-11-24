@@ -11412,6 +11412,7 @@ software_web
   Conact Sass Products
 -----------------------------*/
 .simplecontact_section {
+  background-color: #001638;
   position: relative;
   overflow: hidden;
 }
