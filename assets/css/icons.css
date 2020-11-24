@@ -3259,7 +3259,8 @@
     content: "\ed31";
   }
   .hidden_outlined:before {
-    content: "\ed32";
+    content: "\f070";
+    font-family: FontAwesome;
   }
   .hidden:before {
     content: "\ed33";
