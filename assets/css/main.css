@@ -3661,7 +3661,7 @@ img {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  background-color: #89bd49;
+  background-color: #fd7028;
   border-radius: 50%;
   vertical-align: sub;
 }
@@ -3723,7 +3723,7 @@ img {
 }
 .rakon_purchase .btn_purch:hover:after {
   border-radius: 50px;
-  background: rgba(137, 189, 73, 0.85);
+  background: rgba(189, 114, 73, 0.85);
   width: 150px;
 }
 
