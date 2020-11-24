@@ -10679,7 +10679,7 @@ software_web
 .p_pricing_list .tab_pricing_list {
   position: relative;
   display: block;
-  background-color: #f93542;
+  background-color: #fd7028;
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
   border-bottom-left-radius: 12px;
@@ -10818,6 +10818,7 @@ software_web
   background-color: #001638;
   border-top-right-radius: 12px;
   border-bottom-right-radius: 12px;
+  margin-bottom: 20%;
   padding: 3.75rem;
   display: grid;
   align-items: center;
@@ -10869,7 +10870,7 @@ software_web
 }
 .p_pricing_list .group_price_table .item_price .part_one h3 {
   display: inline-block;
-  font-size: 18px;
+  font-size: 13px;
   color: #7b7b7b;
   margin-bottom: 0;
   font-weight: 400;
@@ -10900,7 +10901,7 @@ software_web
   }
 }
 .p_pricing_list .group_price_table .item_price .part_two h4 {
-  font-size: 30px;
+  font-size: 21px;
   font-weight: 600;
   color: #7b7b7b;
   margin-bottom: 0;
