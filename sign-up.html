@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en" class="h-100">
 
@@ -10,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-    <title>Unhexlink | Masuk</title>
+    <title>Unhexlink | Daftar</title>
     <!-- favicon -->
     <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon" />
     <!-- Bootstrap 4.5 -->
@@ -62,45 +61,17 @@
           </div>
 
           <div class="title_sections margin-b-5">
-            <h2 class="c-black mb-1">Sign in</h2>
-            <p class="c-gray">New user? <a href="signup-3.html" class="c-blue">Create an account</a></p>
+            <h2 class="c-black mb-1">Create an account</h2>
+            <p class="c-gray">Already have an account? <a href="signin-3.html" class="c-blue">Sign in</a></p>
           </div>
 
         </div>
         <div class="col-md-7 col-lg-5 ml-lg-auto">
           <div class="item_group">
             <form action="" class="row">
-
               <div class="col-12">
-                <div class="form-group">
-                  <label>Email address</label>
-                  <input type="email" class="form-control" placeholder="email address">
-                </div>
-              </div>
-
-              <div class="col-md-12">
-                <div class="form-group --password" id="show_hide_password">
-                  <label>Password</label>
-                  <div class="input-group">
-                    <input type="password" class="form-control" data-toggle="password" placeholder="+6 Characters"
-                      required="" />
-                    <div class="input-group-prepend hide_show">
-                      <a href=""><span class="input-group-text tio hidden_outlined"></span></a>
-                    </div>
-                  </div>
-                </div>
-                <a href="forgot-3.html" class="d-flex justify-content-end font-s-13 c-blue">Forgot Password?</a>
-              </div>
-
-              <div class="col-12">
-                <a href="#" class="btn w-100 margin-t-3 btn_account bg-orange-red c-white rounded-8">
-                  Sign in
-                </a>
-              </div>
-              <div class="col-12">
-                <div class="google_sign margin-t-3">
-                  <p class="text-center font-s-13 c-gray margin-b-3">Or</p>
-                  <button type="button" class="btn btn_social rounded-8 mb-3">
+                <div class="google_sign">
+                  <button type="button" class="btn btn_social rounded-8">
                     <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25">
                       <g id="Group_6390" data-name="Group 6390" transform="translate(-595 -504)">
                         <circle id="Ellipse_227" data-name="Ellipse 227" cx="12.5" cy="12.5" r="12.5"
@@ -129,11 +100,52 @@
                     </svg>
                     Sign up with Google
                   </button>
-
+                  <p class="text-center font-s-13 c-gray margin-my-3">Or Sign Up With E-Mail</p>
                 </div>
               </div>
+              <div class="col-12">
+                <div class="form-group">
+                  <label>Email address</label>
+                  <input type="email" class="form-control" placeholder="email address">
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label>First Name</label>
+                  <input type="text" class="form-control" placeholder="first name">
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label>Last Name</label>
+                  <input type="text" class="form-control" placeholder="last Name">
+                </div>
+              </div>
+              <div class="col-md-12">
+                <div class="form-group --password" id="show_hide_password">
+                  <label>Password</label>
+                  <div class="input-group">
+                    <input type="password" class="form-control" data-toggle="password" placeholder="+6 Characters"
+                      required="" />
+                    <div class="input-group-prepend hide_show">
+                      <a href=""><span class="input-group-text tio hidden_outlined"></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12">
+                <p class="font-s-13 mb-0">
+                  By clicking on the Sign Up button, you agree to Rakon.
+                  <a href="#" target="_blank" class="c-blue">
+                    terms and conditions of use.
+                  </a>
+                </p>
 
-
+                <a href="#" class="btn w-100 margin-t-3 btn_account bg-orange-red c-white rounded-8">
+                  Create
+                  account
+                </a>
+              </div>
             </form>
           </div>
 
@@ -164,6 +176,18 @@
       <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
     </svg>
   </div>
+
+  <!-- Purchase item -->
+  <a href="https://themeforest.net/item/rakon-html-landing-page-templates/27849521" target="_blank"
+    class="rakon_purchase">
+    <button type="button" class="btn btn_purch">
+      <div class="icon">
+        <img src="../../assets/img/rakon/envato.svg" />
+      </div>
+      <span class="txt">Purchase</span>
+    </button>
+  </a>
+  <!-- End. -->
 
   <!-- jquery -->
   <script src="assets/js/jquery-3.5.0.js" type="text/javascript"></script>
@@ -212,6 +236,7 @@
   <script src="assets/js/aos.js" type="text/javascript"></script>
   <!-- main file -->
   <script src="assets/js/main.js" type="text/javascript"></script>
+
 </body>
 
 </html>
