@@ -10501,7 +10501,7 @@ software_web
   justify-content: center;
 }
 .pricing_demo3 .nav-pills .nav-item .nav-link {
-  background-color: #ffffff;
+  background-color: #96969631;
   padding: 1rem 2rem;
   border-radius: 8px;
   color: #0b2238;
@@ -12130,7 +12130,7 @@ software_web
   position: relative;
   overflow: hidden;
   border-radius: 12px;
-  background-color: #001638;
+  background-color: #fd7028;
   padding: 5rem 0;
 }
 .creative_box_contact .content::before {
