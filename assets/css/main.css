@@ -13009,7 +13009,7 @@ software_web
   display: grid;
   -ms-flex-align: center;
   align-items: center;
-  background-image: url("../img/inner/01.jpg");
+  background-image: url("../img/01.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -13104,7 +13104,7 @@ software_web
   color: #ffffff;
 }
 .signup_full.bg_dark {
-  background-color: #000;
+  background-color: #ffffff;
   background-image: none;
   padding: 2.5rem 0;
 }
@@ -13115,7 +13115,7 @@ software_web
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url("../img/workspace/bg-about.png");
+  background-image: url("../img/01.jpg");
   background-size: 100%;
   background-position-y: 90%;
   position: fixed;
